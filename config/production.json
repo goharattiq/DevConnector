@@ -1,0 +1,9 @@
+{
+    "mongoURI":"mongodb+srv://gohar:112199846427@devcluster-lwfd8.mongodb.net/test?retryWrites=true&w=majority",
+    "jwtsecret":"mylearnsecret",
+    "clientid":"742011269fde9b6fc1b6",
+    "clientsecret":"6dff62758fb859ac224048a4d101024c0a778a6a"
+  }
+  
+  
+  
