@@ -1,7 +1,7 @@
-const intialState=[];
+const intialState = [];
 
-export default function (state =intialState,action){
-    switch(action.type){
+const alertReducer = (state = intialState, action) => {
+    switch (action.type) {
         case 'SET_ALERT':
             return [
                 ...state,
@@ -9,8 +9,11 @@ export default function (state =intialState,action){
             ];
         case 'REMOVE_ALERT':
             return state.filter(alert => alert.id !== action.payload);
-        default : return [
-            ...state
-        ]
+        default:
+            return [
+                ...state
+            ]
     }
 }
+
+export default alertReducer;
