@@ -1,9 +1,0 @@
-{
-    "mongoURI":"mongodb+srv://gohar:<password>@devcluster-lwfd8.mongodb.net/test?retryWrites=true&w=majority",
-    "jwtsecret":"mylearnsecret",
-    "clientid":"xxx",
-    "clientsecret":"xxx"
-  }
-  
-  
-  
