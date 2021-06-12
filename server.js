@@ -12,6 +12,7 @@ const auth = require('./routes/api/auth');
 app.use(express.json({ extended: false }));
 
 // DB Config
+console.log(process.env.mongoURI)
 const db = process.env.mongoURI || config.get("mongoURI");
 
 // Connect to MongoDB
