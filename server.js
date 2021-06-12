@@ -14,8 +14,10 @@ app.use(express.json({ extended: false }));
 // DB Config
 console.log(process.env.mongoURI)
 const db = process.env.mongoURI || config.get("mongoURI");
-
-// Connect to MongoDB
+console.log(process.env.jwtsecret)
+console.log(process.env.clientid)
+console.log(process.env.clientsecret)
+    // Connect to MongoDB
 mongoose
     .connect(db, {
         useNewUrlParser: true,
